@@ -1,0 +1,107 @@
+/* === IMPORTANTE ===
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================= */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  margin: 0;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 2px solid #777;
+}
+
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================= */
+
+#contenido {
+  width: 77%;
+
+}
+
+#contenido #principal {
+  width: 73%;
+}
+
+/* EJERCICIO 3*/
+#menu
+{padding: 0.5em;
+margin-bottom: 0.5em;}
+
+#noticias, #publicidad, #principal, #secundario
+{padding: 0.5em;}
+
+#pie
+{padding-top: 0.5em;
+padding-bottom: 0.5em;}
+
+.articulo
+{margin: 1em;}
+
+image
+{margin-top: 0.5em;
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+ margin-bottom: 0.5em;
+}
+
+#publicidad
+{margin: 1em;}
+
+#pie
+{margin-top: 1em;}
+
+/* EJERCICIO 4*/
+#menu { clear: both;border-bottom: 0.8px solid #004C99; }
+#noticias { border: 1px solid #c5c5c5;}
+#publicidad { border: 1px dashed #CC6600;}
+#contenido #secundario { border: 1px solid #CC6600;}
+#pie { border-top: 0.8px solid #c5c5c5;
+border-bottom: 0.8px solid #c5c5c5;}
+
+/*EJERCICIO 5*/
+#noticias, #pie { background-color: #f8f8f8}
+#publicidad {background-color: #FFF6CD;}
+#secundario h2 {background-color: #DB905C;
+padding: 0.2em;}
+#menu { background-image: url(img/fondo_menu.gif);
+background-position: 0px -250px;
+background-repeat: no-repeat;
+background-size:cover}
+#cabecera h1 {background-image: url(img/logo.gif);
+  background-position: 0px -95px;
+  background-repeat: no-repeat;
+  background-size:cover}
